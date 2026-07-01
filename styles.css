@@ -406,7 +406,7 @@ footer a:focus-visible {
 }
 
 /* TODO: Add responsive design for iPads */
- @media (max-width: 1180px) {
+ @media (min-width: 641px) and (max-width: 1180px) {
     .container {
         width: 95%;
     }
