@@ -207,6 +207,20 @@ img {
     border: 1px solid #e1e5ea;
 }
 
+.movie-card video {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #e1e5ea;
+}
+
+.movie-card audio {
+    color: var(--csuf-cream);
+    width: 100%;
+    gap: 15px;
+}
+
 
 /* ==================================================
    8. Buttons
